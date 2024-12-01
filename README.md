@@ -17,8 +17,8 @@ Additionally, a chatbot powered by GPT-4.0 was developed using Chatbase.co. This
 
 - Python 3.x
 - Flask
-- OpenRouteService API Key
-- Geocoding API Key 
+- OpenRouteService API Key (https://openrouteservice.org/)
+- Geocoding API Key (https://geocode.maps.co/)
 - JavaScript, Leaflet.js for map rendering
 
 ## Installation
