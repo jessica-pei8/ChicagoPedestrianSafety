@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Form</title>
+</head>
+<body>
+    <h1>Enter Addresses to Find Dangerous Intersections Along Your Route</h1>
+    <form id="address-form" method="POST" action="/get_intersections">
+        <label for="start-address">Starting Address:</label>
+        <input type="text" id="start-address" name="start_address" required><br><br>
+
+        <label for="end-address">Ending Address:</label>
+        <input type="text" id="end-address" name="end_address" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Result:</h2>
+    <div id="result"></div>
+
+    <script>
+       document.getElementById("address-form").addEventListener("submit", async function(event) {
+            event.preventDefault(); 
+            const startAddress = document.getElementById("start-address").value;
+            const endAddress = document.getElementById("end-address").value;
+
+            const response = await fetch('/get_intersections', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ start_address: startAddress, end_address: endAddress })
+            });
+
+            const result = await response.json();
+            document.getElementById("result").textContent = JSON.stringify(result, null, 2);
+        });
+    </script>
+</body>
+</html>

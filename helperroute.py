@@ -76,11 +76,13 @@ def haversine(lat1, lon1, lat2, lon2):
     
     return R * c * 1000  
 
-def check_route_for_intersections(route_coords, intersections, threshold=10):
+def check_route_for_intersections(route_coords, threshold=10):
     passed_intersections = []
-    for intersection in intersections:
+    top_intersections = load_intersections('saved_jsons/centroids.json')
+    for intersection in top_intersections:
         for point in route_coords:
             distance = haversine(intersection['Latitude'], intersection['Longitude'], point[1], point[0])
+            print(distance)
             if distance <= threshold:
                 passed_intersections.append(intersection)
                 break
@@ -88,7 +90,6 @@ def check_route_for_intersections(route_coords, intersections, threshold=10):
     return passed_intersections
 
 
-# top_intersections = load_intersections('centroids.json')
 # # Example user inputs (start and end coordinates)
 # start_coords =   address_to_coords('225 S Canal St, Chicago, IL 60606') 
 # end_coords =  address_to_coords(' 800 W Fulton Market, Chicago, IL 60607')
@@ -97,6 +98,6 @@ def check_route_for_intersections(route_coords, intersections, threshold=10):
 # route_coordinates = get_route(start_coords, end_coords)
 # # Check if the route passes through any intersections
 # if route_coordinates:
-#     intersections_near_route = check_route_for_intersections(route_coordinates, top_intersections)
+#     intersections_near_route = check_route_for_intersections(route_coordinates)
 #     print(f"Intersections near the route: {intersections_near_route}")
 
