@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Address Form</title>
+    <title>Dangerous Intersections</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 <body>
     <h1>Enter Addresses to Find Dangerous Intersections Along Your Route</h1>
@@ -20,12 +21,18 @@
     <h2>Result:</h2>
     <div id="result"></div>
 
+    <div id="map" style="height: 500px; width: 100%;"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-       document.getElementById("address-form").addEventListener("submit", async function(event) {
+        let map = null;
+
+        document.getElementById("address-form").addEventListener("submit", async function(event) {
             event.preventDefault(); 
             const startAddress = document.getElementById("start-address").value;
             const endAddress = document.getElementById("end-address").value;
 
+            // Fetch route and intersections from the backend
             const response = await fetch('/get_intersections', {
                 method: 'POST',
                 headers: {
@@ -35,7 +42,31 @@
             });
 
             const result = await response.json();
-            document.getElementById("result").textContent = JSON.stringify(result, null, 2);
+
+            if (response.ok) {
+                // If the map already exists, remove it and reinitialize
+                if (map) {
+                    map.remove(); // Clear the existing map instance
+                }
+
+                // Initialize the map
+                map = L.map('map').setView([41.8781, -87.6298], 13); // Center on Chicago
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(map);
+
+                const routeCoordinates = result.route.map(coord => [coord[1], coord[0]]); 
+                L.polyline(routeCoordinates, { color: 'blue' }).addTo(map);
+
+                result.intersections.forEach(intersection => {
+                    L.marker([intersection.Latitude, intersection.Longitude]).addTo(map)
+                        .bindPopup(`Dangerous Intersection: ${intersection.Address || "Unknown Address"}`);
+                });
+
+                document.getElementById("result").textContent = "Route and intersections loaded successfully!";
+            } else {
+                document.getElementById("result").textContent = "Error: " + result.error;
+            }
         });
     </script>
 </body>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualization Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Visualization Gallery</h1>
+    <div class="gallery">
+        <img src="/assets/lightinghistogram.png" alt="Visualization 1">
+        <img src="/assets/weatherhistogram.png" alt="Visualization 2">
+        <img src="/assets/monthhistogram.png" alt="Visualization 3">
+        <img src="/assets/crasheshistogram.png" alt="Visualization 4">
+        <img src="/assets/piechart.png" alt="Visualization 5">
+    </div>
+</body>
+</html>

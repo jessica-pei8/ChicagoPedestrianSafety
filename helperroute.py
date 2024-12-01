@@ -27,14 +27,12 @@ def address_to_coords(address):
 
 def coords_to_address(lat,lon):
     base_url = "https://geocode.maps.co/reverse"   
-    
     params = {
         'lat': lat,   
         'lon': lon,   
         'api_key': GEOCODEapikey,   
         'format': 'json'  
     }
-    
     response = requests.get(base_url, params=params)
     if response.status_code == 200:
         data = response.json()
@@ -48,7 +46,6 @@ def get_route(start_coords, end_coords):
     client = openrouteservice.Client(key=ORSapi_key)
     start_lat, start_lon = start_coords
     end_lat, end_lon = end_coords
-
     try:
         route = client.directions(
             coordinates=[(start_lon, start_lat), (end_lon, end_lat)],  # Start and end coordinates
@@ -70,7 +67,6 @@ def haversine(lat1, lon1, lat2, lon2):
     phi1, phi2 = math.radians(lat1), math.radians(lat2)
     delta_phi = math.radians(lat2 - lat1)
     delta_lambda = math.radians(lon2 - lon1)
-    
     a = math.sin(delta_phi / 2)**2 + math.cos(phi1) * math.cos(phi2) * math.sin(delta_lambda / 2)**2
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
     
@@ -82,7 +78,6 @@ def check_route_for_intersections(route_coords, threshold=10):
     for intersection in top_intersections:
         for point in route_coords:
             distance = haversine(intersection['Latitude'], intersection['Longitude'], point[1], point[0])
-            print(distance)
             if distance <= threshold:
                 passed_intersections.append(intersection)
                 break

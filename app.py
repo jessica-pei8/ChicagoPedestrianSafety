@@ -1,16 +1,21 @@
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, render_template, jsonify, request, send_from_directory
 import requests
-from config import serviceInstanceID, integrationID
 from helperroute import *
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html',  watson_integration_id=integrationID,
-                           watson_service_instance_id=serviceInstanceID)
+    return render_template('index.html')
 @app.route('/check')
 def routequery():
     return render_template('routequery.html')
+@app.route('/visualizations')
+def visualizations():
+    return render_template('visualizations.html')
+
+@app.route('/assets/<path:filename>')
+def serve_assets(filename):
+    return send_from_directory('assets', filename)
 
 @app.route('/get_coordinates', methods=['GET'])
 def get_coordinates():
@@ -35,17 +40,22 @@ def get_intersections():
 
     if not start_coords or not end_coords:
         return jsonify({"error": "Invalid addresses or unable to fetch coordinates."}), 400
+
     route_coords = get_route(start_coords, end_coords)
     if route_coords is None:
         return jsonify({"error": "Error fetching route."}), 500
 
-    intersections = check_route_for_intersections(route_coords)  
-    intersection_addresses = []
-    for intersection in intersections:
-        lat, lon = intersection['Latitude'], intersection['Longitude']
-        address = coords_to_address(lat, lon)
-        intersection_addresses.append(address)
-    return jsonify(intersection_addresses)
+    intersections = check_route_for_intersections(route_coords)
+    intersection_details = [
+        {
+            "Latitude": intersection['Latitude'],
+            "Longitude": intersection['Longitude'],
+            "Address": coords_to_address(intersection['Latitude'], intersection['Longitude'])
+        }
+        for intersection in intersections
+    ]
+
+    return jsonify({"route": route_coords, "intersections": intersection_details})
 
 if __name__ == '__main__':
     app.run(debug=True)
