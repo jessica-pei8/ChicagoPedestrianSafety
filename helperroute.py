@@ -24,6 +24,25 @@ def address_to_coords(address):
     else:
         print("Error with the API request. Status code:", response.status_code)
         return None
+
+def coords_to_address(lat,lon):
+    base_url = "https://geocode.maps.co/reverse"   
+    
+    params = {
+        'lat': lat,   
+        'lon': lon,   
+        'api_key': GEOCODEapikey,   
+        'format': 'json'  
+    }
+    
+    response = requests.get(base_url, params=params)
+    if response.status_code == 200:
+        data = response.json()
+        return data['display_name']
+    else:
+        print("Error with the API request. Status code:", response.status_code)
+        return None
+
     
 def get_route(start_coords, end_coords):
     client = openrouteservice.Client(key=ORSapi_key)
@@ -80,3 +99,4 @@ def check_route_for_intersections(route_coords, intersections, threshold=10):
 # if route_coordinates:
 #     intersections_near_route = check_route_for_intersections(route_coordinates, top_intersections)
 #     print(f"Intersections near the route: {intersections_near_route}")
+
