@@ -31,8 +31,6 @@
             event.preventDefault(); 
             const startAddress = document.getElementById("start-address").value;
             const endAddress = document.getElementById("end-address").value;
-
-            // Fetch route and intersections from the backend
             const response = await fetch('/get_intersections', {
                 method: 'POST',
                 headers: {
@@ -44,12 +42,9 @@
             const result = await response.json();
 
             if (response.ok) {
-                // If the map already exists, remove it and reinitialize
                 if (map) {
                     map.remove(); // Clear the existing map instance
                 }
-
-                // Initialize the map
                 map = L.map('map').setView([41.8781, -87.6298], 13); // Center on Chicago
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     attribution: '© OpenStreetMap contributors'
