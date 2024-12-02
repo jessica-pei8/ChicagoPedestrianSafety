@@ -1,11 +1,13 @@
 from flask import Flask, render_template, jsonify, request, send_from_directory
 import requests
 from helperroute import *
+from config import CHATBASE_ID
+
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', CHATBASE_ID=CHATBASE_ID)
 @app.route('/check')
 def routequery():
     return render_template('routequery.html')
