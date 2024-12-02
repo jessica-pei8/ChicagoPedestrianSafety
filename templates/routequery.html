@@ -5,32 +5,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dangerous Intersections</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #444;
+        }
+
+        #address-form {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"]:focus {
+            border-color: #007BFF;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button:active {
+            background-color: #004080;
+            box-shadow: none;
+        }
+
+        #result {
+            text-align: center;
+            margin: 20px auto;
+            font-size: 18px;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        #map {
+            height: 500px;
+            width: 100%;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #intersection-list {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #intersection-list h3 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: #444;
+        }
+
+        #intersection-list ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #intersection-list li {
+            background: #f5f5f5;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
+    {% include "base.html" %}
     <h1>Enter Addresses to Find Dangerous Intersections Along Your Route</h1>
     <form id="address-form" method="POST" action="/get_intersections">
         <label for="start-address">Starting Address:</label>
-        <input type="text" id="start-address" name="start_address" required><br><br>
+        <input type="text" id="start-address" name="start_address" placeholder="Enter starting address" required>
 
         <label for="end-address">Ending Address:</label>
-        <input type="text" id="end-address" name="end_address" required><br><br>
+        <input type="text" id="end-address" name="end_address" placeholder="Enter ending address" required>
 
-        <button type="submit">Submit</button>
+        <button type="submit">Find Dangerous Intersections</button>
     </form>
-
-    <h2>Result:</h2>
     <div id="result"></div>
 
-    <div id="map" style="height: 500px; width: 100%;"></div>
+    <div id="map"></div>
+
+    <div id="intersection-list">
+        <h3>Dangerous Intersections:</h3>
+        <ul id="intersection-items"></ul>
+    </div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
         let map = null;
 
         document.getElementById("address-form").addEventListener("submit", async function(event) {
-            event.preventDefault(); 
+            event.preventDefault();
             const startAddress = document.getElementById("start-address").value;
             const endAddress = document.getElementById("end-address").value;
+
             const response = await fetch('/get_intersections', {
                 method: 'POST',
                 headers: {
@@ -45,17 +165,26 @@
                 if (map) {
                     map.remove(); // Clear the existing map instance
                 }
+
                 map = L.map('map').setView([41.8781, -87.6298], 13); // Center on Chicago
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     attribution: '© OpenStreetMap contributors'
                 }).addTo(map);
 
-                const routeCoordinates = result.route.map(coord => [coord[1], coord[0]]); 
+                const routeCoordinates = result.route.map(coord => [coord[1], coord[0]]);
                 L.polyline(routeCoordinates, { color: 'blue' }).addTo(map);
 
+                const intersectionList = document.getElementById("intersection-items");
+                intersectionList.innerHTML = ""; // Clear previous results
+
                 result.intersections.forEach(intersection => {
-                    L.marker([intersection.Latitude, intersection.Longitude]).addTo(map)
+                    const marker = L.marker([intersection.Latitude, intersection.Longitude])
+                        .addTo(map)
                         .bindPopup(`Dangerous Intersection: ${intersection.Address || "Unknown Address"}`);
+                    
+                    const listItem = document.createElement("li");
+                    listItem.textContent = `${intersection.Address || "Unknown Address"} (${intersection.Latitude}, ${intersection.Longitude})`;
+                    intersectionList.appendChild(listItem);
                 });
 
                 document.getElementById("result").textContent = "Route and intersections loaded successfully!";
