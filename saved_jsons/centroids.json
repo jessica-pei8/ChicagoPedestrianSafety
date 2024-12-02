@@ -1,802 +1,1502 @@
 [
     {
         "Latitude": 41.8697124616993,
-        "Longitude": -87.6437300301888
+        "Longitude": -87.6437300301888,
+        "Cluster_Count": 143
     },
     {
         "Latitude": 41.876410782230764,
-        "Longitude": -87.66669026728671
+        "Longitude": -87.66669026728671,
+        "Cluster_Count": 143
     },
     {
         "Latitude": 41.900958919,
-        "Longitude": -87.619928174
+        "Longitude": -87.619928174,
+        "Cluster_Count": 124
     },
     {
         "Latitude": 41.852358475454544,
-        "Longitude": -87.66617400586868
+        "Longitude": -87.66617400586868,
+        "Cluster_Count": 99
     },
     {
         "Latitude": 41.890145887447915,
-        "Longitude": -87.6477210241979
+        "Longitude": -87.6477210241979,
+        "Cluster_Count": 96
     },
     {
         "Latitude": 41.900761388419355,
-        "Longitude": -87.6242417537742
+        "Longitude": -87.6242417537742,
+        "Cluster_Count": 93
     },
     {
         "Latitude": 41.89328231530435,
-        "Longitude": -87.63127956983695
+        "Longitude": -87.63127956983695,
+        "Cluster_Count": 92
     },
     {
         "Latitude": 41.88455299352809,
-        "Longitude": -87.62449064817977
+        "Longitude": -87.62449064817977,
+        "Cluster_Count": 89
     },
     {
         "Latitude": 41.892094137,
-        "Longitude": -87.611569884
-    },
-    {
-        "Latitude": 41.86739087758442,
-        "Longitude": -87.62045187242857
+        "Longitude": -87.611569884,
+        "Cluster_Count": 85
     },
     {
         "Latitude": 41.89321258392208,
-        "Longitude": -87.63250968985714
+        "Longitude": -87.63250968985714,
+        "Cluster_Count": 77
+    },
+    {
+        "Latitude": 41.86739087758442,
+        "Longitude": -87.62045187242857,
+        "Cluster_Count": 77
     },
     {
         "Latitude": 41.862402425,
-        "Longitude": -87.666418968
+        "Longitude": -87.666418968,
+        "Cluster_Count": 75
     },
     {
         "Latitude": 41.894131678337835,
-        "Longitude": -87.62041797968918
+        "Longitude": -87.62041797968918,
+        "Cluster_Count": 74
     },
     {
         "Latitude": 41.88328414636111,
-        "Longitude": -87.63979316393055
+        "Longitude": -87.63979316393055,
+        "Cluster_Count": 72
     },
     {
         "Latitude": 41.86736728402985,
-        "Longitude": -87.63930115343283
+        "Longitude": -87.63930115343283,
+        "Cluster_Count": 67
     },
     {
         "Latitude": 41.90335332201515,
-        "Longitude": -87.66751747665151
-    },
-    {
-        "Latitude": 41.868889711,
-        "Longitude": -87.639098928
-    },
-    {
-        "Latitude": 41.887707623126985,
-        "Longitude": -87.62060761004763
-    },
-    {
-        "Latitude": 41.90372713363492,
-        "Longitude": -87.64818030460317
+        "Longitude": -87.66751747665151,
+        "Cluster_Count": 66
     },
     {
         "Latitude": 41.88084967593651,
-        "Longitude": -87.6176377871111
+        "Longitude": -87.6176377871111,
+        "Cluster_Count": 63
+    },
+    {
+        "Latitude": 41.90372713363492,
+        "Longitude": -87.64818030460317,
+        "Cluster_Count": 63
+    },
+    {
+        "Latitude": 41.887707623126985,
+        "Longitude": -87.62060761004763,
+        "Cluster_Count": 63
+    },
+    {
+        "Latitude": 41.868889711,
+        "Longitude": -87.639098928,
+        "Cluster_Count": 63
     },
     {
         "Latitude": 41.88807974903225,
-        "Longitude": -87.62057463598387
+        "Longitude": -87.62057463598387,
+        "Cluster_Count": 62
     },
     {
         "Latitude": 41.91126089227419,
-        "Longitude": -87.63323936109678
+        "Longitude": -87.63323936109678,
+        "Cluster_Count": 62
     },
     {
         "Latitude": 41.91073762448387,
-        "Longitude": -87.66778216458064
+        "Longitude": -87.66778216458064,
+        "Cluster_Count": 62
     },
     {
         "Latitude": 41.857562414803276,
-        "Longitude": -87.63900791611475
-    },
-    {
-        "Latitude": 41.86709437052542,
-        "Longitude": -87.64524975145763
+        "Longitude": -87.63900791611475,
+        "Cluster_Count": 61
     },
     {
         "Latitude": 41.867115057271185,
-        "Longitude": -87.64426531669491
+        "Longitude": -87.64426531669491,
+        "Cluster_Count": 59
+    },
+    {
+        "Latitude": 41.86709437052542,
+        "Longitude": -87.64524975145763,
+        "Cluster_Count": 59
     },
     {
         "Latitude": 41.89924671386207,
-        "Longitude": -87.62427494731035
+        "Longitude": -87.62427494731035,
+        "Cluster_Count": 58
     },
     {
         "Latitude": 41.86709248608772,
-        "Longitude": -87.64384793282456
-    },
-    {
-        "Latitude": 41.88568866673214,
-        "Longitude": -87.64748297282144
+        "Longitude": -87.64384793282456,
+        "Cluster_Count": 57
     },
     {
         "Latitude": 41.86672898205357,
-        "Longitude": -87.6259612425
+        "Longitude": -87.6259612425,
+        "Cluster_Count": 56
+    },
+    {
+        "Latitude": 41.88568866673214,
+        "Longitude": -87.64748297282144,
+        "Cluster_Count": 56
     },
     {
         "Latitude": 41.895875268199994,
-        "Longitude": -87.67725763156363
-    },
-    {
-        "Latitude": 41.90379549446296,
-        "Longitude": -87.64326257535186
+        "Longitude": -87.67725763156363,
+        "Cluster_Count": 55
     },
     {
         "Latitude": 41.89321726194444,
-        "Longitude": -87.63718331224074
+        "Longitude": -87.63718331224074,
+        "Cluster_Count": 54
+    },
+    {
+        "Latitude": 41.90379549446296,
+        "Longitude": -87.64326257535186,
+        "Cluster_Count": 54
     },
     {
         "Latitude": 41.87572215264151,
-        "Longitude": -87.62929280190566
-    },
-    {
-        "Latitude": 41.88192861998077,
-        "Longitude": -87.636616804
+        "Longitude": -87.62929280190566,
+        "Cluster_Count": 53
     },
     {
         "Latitude": 41.89095474326923,
-        "Longitude": -87.62428258017309
+        "Longitude": -87.62428258017309,
+        "Cluster_Count": 52
+    },
+    {
+        "Latitude": 41.88192861998077,
+        "Longitude": -87.636616804,
+        "Cluster_Count": 52
     },
     {
         "Latitude": 41.89011536439215,
-        "Longitude": -87.64746147545098
-    },
-    {
-        "Latitude": 41.910875548579995,
-        "Longitude": -87.65827325282
+        "Longitude": -87.64746147545098,
+        "Cluster_Count": 51
     },
     {
         "Latitude": 41.89679859236,
-        "Longitude": -87.62436966846
+        "Longitude": -87.62436966846,
+        "Cluster_Count": 50
     },
     {
         "Latitude": 41.891130403380004,
-        "Longitude": -87.61438064124
+        "Longitude": -87.61438064124,
+        "Cluster_Count": 50
     },
     {
-        "Latitude": 41.87321609185714,
-        "Longitude": -87.67567625618368
-    },
-    {
-        "Latitude": 41.888423847979595,
-        "Longitude": -87.62439904034693
+        "Latitude": 41.910875548579995,
+        "Longitude": -87.65827325282,
+        "Cluster_Count": 50
     },
     {
         "Latitude": 41.86725976695919,
-        "Longitude": -87.64228351979592
+        "Longitude": -87.64228351979592,
+        "Cluster_Count": 49
+    },
+    {
+        "Latitude": 41.87321609185714,
+        "Longitude": -87.67567625618368,
+        "Cluster_Count": 49
+    },
+    {
+        "Latitude": 41.888423847979595,
+        "Longitude": -87.62439904034693,
+        "Cluster_Count": 49
     },
     {
         "Latitude": 41.86734428091667,
-        "Longitude": -87.63908091835417
+        "Longitude": -87.63908091835417,
+        "Cluster_Count": 48
     },
     {
         "Latitude": 41.867156706083335,
-        "Longitude": -87.63934874758333
-    },
-    {
-        "Latitude": 41.91058716159574,
-        "Longitude": -87.67763432334043
+        "Longitude": -87.63934874758333,
+        "Cluster_Count": 48
     },
     {
         "Latitude": 41.86747750780851,
-        "Longitude": -87.63046689193617
+        "Longitude": -87.63046689193617,
+        "Cluster_Count": 47
+    },
+    {
+        "Latitude": 41.91058716159574,
+        "Longitude": -87.67763432334043,
+        "Cluster_Count": 47
     },
     {
         "Latitude": 41.89323709280435,
-        "Longitude": -87.632767148
-    },
-    {
-        "Latitude": 41.87309356334782,
-        "Longitude": -87.62434272552174
-    },
-    {
-        "Latitude": 41.89126269726087,
-        "Longitude": -87.64773366163044
+        "Longitude": -87.632767148,
+        "Cluster_Count": 46
     },
     {
         "Latitude": 41.89245971860869,
-        "Longitude": -87.63273540513043
+        "Longitude": -87.63273540513043,
+        "Cluster_Count": 46
     },
     {
-        "Latitude": 41.89680619288889,
-        "Longitude": -87.6170282699111
+        "Latitude": 41.87309356334782,
+        "Longitude": -87.62434272552174,
+        "Cluster_Count": 46
     },
     {
-        "Latitude": 41.89321465904444,
-        "Longitude": -87.63698406771111
+        "Latitude": 41.89126269726087,
+        "Longitude": -87.64773366163044,
+        "Cluster_Count": 46
     },
     {
         "Latitude": 41.85120315593334,
-        "Longitude": -87.61881987977777
+        "Longitude": -87.61881987977777,
+        "Cluster_Count": 45
     },
     {
         "Latitude": 41.881241457,
-        "Longitude": -87.674282534
+        "Longitude": -87.674282534,
+        "Cluster_Count": 45
     },
     {
-        "Latitude": 41.892412225545456,
-        "Longitude": -87.63720313402273
+        "Latitude": 41.89321465904444,
+        "Longitude": -87.63698406771111,
+        "Cluster_Count": 45
+    },
+    {
+        "Latitude": 41.89680619288889,
+        "Longitude": -87.6170282699111,
+        "Cluster_Count": 45
     },
     {
         "Latitude": 41.85757985813637,
-        "Longitude": -87.64491959988636
+        "Longitude": -87.64491959988636,
+        "Cluster_Count": 44
     },
     {
         "Latitude": 41.87512617245454,
-        "Longitude": -87.66677261452273
+        "Longitude": -87.66677261452273,
+        "Cluster_Count": 44
+    },
+    {
+        "Latitude": 41.892412225545456,
+        "Longitude": -87.63720313402273,
+        "Cluster_Count": 44
     },
     {
         "Latitude": 41.86727533225581,
-        "Longitude": -87.64519441506977
-    },
-    {
-        "Latitude": 41.87582077065117,
-        "Longitude": -87.62417941827907
-    },
-    {
-        "Latitude": 41.87948718630233,
-        "Longitude": -87.62449670306977
+        "Longitude": -87.64519441506977,
+        "Cluster_Count": 43
     },
     {
         "Latitude": 41.89244480074419,
-        "Longitude": -87.6312891049535
+        "Longitude": -87.6312891049535,
+        "Cluster_Count": 43
     },
     {
         "Latitude": 41.88458257655814,
-        "Longitude": -87.62049640058139
+        "Longitude": -87.62049640058139,
+        "Cluster_Count": 43
+    },
+    {
+        "Latitude": 41.87948718630233,
+        "Longitude": -87.62449670306977,
+        "Cluster_Count": 43
+    },
+    {
+        "Latitude": 41.87582077065117,
+        "Longitude": -87.62417941827907,
+        "Cluster_Count": 43
     },
     {
         "Latitude": 41.886710925785714,
-        "Longitude": -87.62796433385714
+        "Longitude": -87.62796433385714,
+        "Cluster_Count": 42
     },
     {
         "Latitude": 41.91093534666667,
-        "Longitude": -87.64837463907143
+        "Longitude": -87.64837463907143,
+        "Cluster_Count": 42
     },
     {
         "Latitude": 41.87571487069048,
-        "Longitude": -87.63075702961905
-    },
-    {
-        "Latitude": 41.88187607353659,
-        "Longitude": -87.64738255887805
-    },
-    {
-        "Latitude": 41.878310135,
-        "Longitude": -87.617575903
-    },
-    {
-        "Latitude": 41.875560564292684,
-        "Longitude": -87.6277073559756
-    },
-    {
-        "Latitude": 41.8675750445122,
-        "Longitude": -87.6305865640244
+        "Longitude": -87.63075702961905,
+        "Cluster_Count": 42
     },
     {
         "Latitude": 41.90353641136585,
-        "Longitude": -87.6618772457317
+        "Longitude": -87.6618772457317,
+        "Cluster_Count": 41
     },
     {
         "Latitude": 41.85753164080488,
-        "Longitude": -87.64394156580488
+        "Longitude": -87.64394156580488,
+        "Cluster_Count": 41
+    },
+    {
+        "Latitude": 41.8675750445122,
+        "Longitude": -87.6305865640244,
+        "Cluster_Count": 41
     },
     {
         "Latitude": 41.86725238153659,
-        "Longitude": -87.6470156955122
-    },
-    {
-        "Latitude": 41.89342012368293,
-        "Longitude": -87.62435269124391
+        "Longitude": -87.6470156955122,
+        "Cluster_Count": 41
     },
     {
         "Latitude": 41.875511520487805,
-        "Longitude": -87.6307743602439
+        "Longitude": -87.6307743602439,
+        "Cluster_Count": 41
     },
     {
-        "Latitude": 41.8673099973,
-        "Longitude": -87.64347162852499
+        "Latitude": 41.878310135,
+        "Longitude": -87.617575903,
+        "Cluster_Count": 41
+    },
+    {
+        "Latitude": 41.88187607353659,
+        "Longitude": -87.64738255887805,
+        "Cluster_Count": 41
+    },
+    {
+        "Latitude": 41.875560564292684,
+        "Longitude": -87.6277073559756,
+        "Cluster_Count": 41
+    },
+    {
+        "Latitude": 41.89342012368293,
+        "Longitude": -87.62435269124391,
+        "Cluster_Count": 41
     },
     {
         "Latitude": 41.87554357225,
-        "Longitude": -87.6293430677
-    },
-    {
-        "Latitude": 41.89244546765,
-        "Longitude": -87.63419313440001
+        "Longitude": -87.6293430677,
+        "Cluster_Count": 40
     },
     {
         "Latitude": 41.848328386675,
-        "Longitude": -87.673434290175
-    },
-    {
-        "Latitude": 41.917930727474996,
-        "Longitude": -87.6680993601
-    },
-    {
-        "Latitude": 41.916164125325004,
-        "Longitude": -87.66793083325
-    },
-    {
-        "Latitude": 41.896393780124995,
-        "Longitude": -87.653697601025
-    },
-    {
-        "Latitude": 41.885393359325,
-        "Longitude": -87.66710482357499
+        "Longitude": -87.673434290175,
+        "Cluster_Count": 40
     },
     {
         "Latitude": 41.874296161,
-        "Longitude": -87.667612811
+        "Longitude": -87.667612811,
+        "Cluster_Count": 40
     },
     {
         "Latitude": 41.864521194,
-        "Longitude": -87.6393041
+        "Longitude": -87.6393041,
+        "Cluster_Count": 40
+    },
+    {
+        "Latitude": 41.89244546765,
+        "Longitude": -87.63419313440001,
+        "Cluster_Count": 40
+    },
+    {
+        "Latitude": 41.896393780124995,
+        "Longitude": -87.653697601025,
+        "Cluster_Count": 40
+    },
+    {
+        "Latitude": 41.8673099973,
+        "Longitude": -87.64347162852499,
+        "Cluster_Count": 40
+    },
+    {
+        "Latitude": 41.917930727474996,
+        "Longitude": -87.6680993601,
+        "Cluster_Count": 40
+    },
+    {
+        "Latitude": 41.885393359325,
+        "Longitude": -87.66710482357499,
+        "Cluster_Count": 40
+    },
+    {
+        "Latitude": 41.916164125325004,
+        "Longitude": -87.66793083325,
+        "Cluster_Count": 40
     },
     {
         "Latitude": 41.88199312738462,
-        "Longitude": -87.63976059038463
-    },
-    {
-        "Latitude": 41.86403564,
-        "Longitude": -87.619297069
+        "Longitude": -87.63976059038463,
+        "Cluster_Count": 39
     },
     {
         "Latitude": 41.891791463,
-        "Longitude": -87.627657741
+        "Longitude": -87.627657741,
+        "Cluster_Count": 39
     },
     {
-        "Latitude": 41.85276715502632,
-        "Longitude": -87.62394089052631
+        "Latitude": 41.86403564,
+        "Longitude": -87.619297069,
+        "Cluster_Count": 39
     },
     {
         "Latitude": 41.837622344,
-        "Longitude": -87.665887181
+        "Longitude": -87.665887181,
+        "Cluster_Count": 38
     },
     {
-        "Latitude": 41.86762628628947,
-        "Longitude": -87.62035656110527
+        "Latitude": 41.85276715502632,
+        "Longitude": -87.62394089052631,
+        "Cluster_Count": 38
     },
     {
         "Latitude": 41.8397704615,
-        "Longitude": -87.64646748510526
-    },
-    {
-        "Latitude": 41.89258890594737,
-        "Longitude": -87.62433388536842
+        "Longitude": -87.64646748510526,
+        "Cluster_Count": 38
     },
     {
         "Latitude": 41.89478955442105,
-        "Longitude": -87.62260780647368
+        "Longitude": -87.62260780647368,
+        "Cluster_Count": 38
     },
     {
         "Latitude": 41.884523186078944,
-        "Longitude": -87.64743431828947
+        "Longitude": -87.64743431828947,
+        "Cluster_Count": 38
+    },
+    {
+        "Latitude": 41.86762628628947,
+        "Longitude": -87.62035656110527,
+        "Cluster_Count": 38
+    },
+    {
+        "Latitude": 41.89258890594737,
+        "Longitude": -87.62433388536842,
+        "Cluster_Count": 38
     },
     {
         "Latitude": 41.859629677,
-        "Longitude": -87.630124899
-    },
-    {
-        "Latitude": 41.89612359945946,
-        "Longitude": -87.66741823489188
-    },
-    {
-        "Latitude": 41.872798869,
-        "Longitude": -87.62433781
+        "Longitude": -87.630124899,
+        "Cluster_Count": 37
     },
     {
         "Latitude": 41.88799313932432,
-        "Longitude": -87.62256529575674
+        "Longitude": -87.62256529575674,
+        "Cluster_Count": 37
     },
     {
-        "Latitude": 41.838326445361105,
-        "Longitude": -87.6176096641111
+        "Latitude": 41.872798869,
+        "Longitude": -87.62433781,
+        "Cluster_Count": 37
     },
     {
-        "Latitude": 41.85777261636111,
-        "Longitude": -87.66626674241667
+        "Latitude": 41.89612359945946,
+        "Longitude": -87.66741823489188,
+        "Cluster_Count": 37
     },
     {
         "Latitude": 41.85277457288889,
-        "Longitude": -87.62717644586111
+        "Longitude": -87.62717644586111,
+        "Cluster_Count": 36
     },
     {
-        "Latitude": 41.896828045,
-        "Longitude": -87.617207703
+        "Latitude": 41.85777261636111,
+        "Longitude": -87.66626674241667,
+        "Cluster_Count": 36
     },
     {
-        "Latitude": 41.866254176,
-        "Longitude": -87.66652414
-    },
-    {
-        "Latitude": 41.91080512802857,
-        "Longitude": -87.66312160445715
-    },
-    {
-        "Latitude": 41.8751565712,
-        "Longitude": -87.67376895034286
+        "Latitude": 41.838326445361105,
+        "Longitude": -87.6176096641111,
+        "Cluster_Count": 36
     },
     {
         "Latitude": 41.920244048114284,
-        "Longitude": -87.6685727295143
+        "Longitude": -87.6685727295143,
+        "Cluster_Count": 35
     },
     {
-        "Latitude": 41.911856953,
-        "Longitude": -87.626169523
+        "Latitude": 41.8751565712,
+        "Longitude": -87.67376895034286,
+        "Cluster_Count": 35
     },
     {
         "Latitude": 41.852991292285715,
-        "Longitude": -87.62937814548572
+        "Longitude": -87.62937814548572,
+        "Cluster_Count": 35
+    },
+    {
+        "Latitude": 41.91080512802857,
+        "Longitude": -87.66312160445715,
+        "Cluster_Count": 35
+    },
+    {
+        "Latitude": 41.911856953,
+        "Longitude": -87.626169523,
+        "Cluster_Count": 35
+    },
+    {
+        "Latitude": 41.896828045,
+        "Longitude": -87.617207703,
+        "Cluster_Count": 35
+    },
+    {
+        "Latitude": 41.866254176,
+        "Longitude": -87.66652414,
+        "Cluster_Count": 35
     },
     {
         "Latitude": 41.83758606645714,
-        "Longitude": -87.67559064625715
-    },
-    {
-        "Latitude": 41.86737408194118,
-        "Longitude": -87.62427506917648
-    },
-    {
-        "Latitude": 41.874016335,
-        "Longitude": -87.670260828
+        "Longitude": -87.67559064625715,
+        "Cluster_Count": 35
     },
     {
         "Latitude": 41.86731954467647,
-        "Longitude": -87.62756462832353
-    },
-    {
-        "Latitude": 41.912503239,
-        "Longitude": -87.633011933
+        "Longitude": -87.62756462832353,
+        "Cluster_Count": 34
     },
     {
         "Latitude": 41.89656669985294,
-        "Longitude": -87.6430160975
+        "Longitude": -87.6430160975,
+        "Cluster_Count": 34
     },
     {
-        "Latitude": 41.89103397357576,
-        "Longitude": -87.62400668851515
+        "Latitude": 41.912503239,
+        "Longitude": -87.633011933,
+        "Cluster_Count": 34
     },
     {
-        "Latitude": 41.88837438118182,
-        "Longitude": -87.62464990996969
+        "Latitude": 41.86737408194118,
+        "Longitude": -87.62427506917648,
+        "Cluster_Count": 34
     },
     {
-        "Latitude": 41.86144820721212,
-        "Longitude": -87.66638557148485
-    },
-    {
-        "Latitude": 41.903974318121215,
-        "Longitude": -87.63306622933332
-    },
-    {
-        "Latitude": 41.85294437339394,
-        "Longitude": -87.63168970436364
-    },
-    {
-        "Latitude": 41.858372593,
-        "Longitude": -87.627356171
-    },
-    {
-        "Latitude": 41.87625466051515,
-        "Longitude": -87.6766597038788
-    },
-    {
-        "Latitude": 41.867067302454544,
-        "Longitude": -87.65677743966667
+        "Latitude": 41.874016335,
+        "Longitude": -87.670260828,
+        "Cluster_Count": 34
     },
     {
         "Latitude": 41.896506668,
-        "Longitude": -87.64770955572726
+        "Longitude": -87.64770955572726,
+        "Cluster_Count": 33
     },
     {
-        "Latitude": 41.884602855,
-        "Longitude": -87.62718694
+        "Latitude": 41.88837438118182,
+        "Longitude": -87.62464990996969,
+        "Cluster_Count": 33
+    },
+    {
+        "Latitude": 41.867067302454544,
+        "Longitude": -87.65677743966667,
+        "Cluster_Count": 33
+    },
+    {
+        "Latitude": 41.89103397357576,
+        "Longitude": -87.62400668851515,
+        "Cluster_Count": 33
+    },
+    {
+        "Latitude": 41.858372593,
+        "Longitude": -87.627356171,
+        "Cluster_Count": 33
+    },
+    {
+        "Latitude": 41.87625466051515,
+        "Longitude": -87.6766597038788,
+        "Cluster_Count": 33
+    },
+    {
+        "Latitude": 41.85294437339394,
+        "Longitude": -87.63168970436364,
+        "Cluster_Count": 33
     },
     {
         "Latitude": 41.88089879424242,
-        "Longitude": -87.66693978566666
+        "Longitude": -87.66693978566666,
+        "Cluster_Count": 33
     },
     {
         "Latitude": 41.867867090000004,
-        "Longitude": -87.6256868410303
+        "Longitude": -87.6256868410303,
+        "Cluster_Count": 33
     },
     {
-        "Latitude": 41.876776895625,
-        "Longitude": -87.636958843375
+        "Latitude": 41.884602855,
+        "Longitude": -87.62718694,
+        "Cluster_Count": 33
     },
     {
-        "Latitude": 41.89245580878125,
-        "Longitude": -87.62823335465625
+        "Latitude": 41.86144820721212,
+        "Longitude": -87.66638557148485,
+        "Cluster_Count": 33
+    },
+    {
+        "Latitude": 41.903974318121215,
+        "Longitude": -87.63306622933332,
+        "Cluster_Count": 33
     },
     {
         "Latitude": 41.889833632625,
-        "Longitude": -87.67700287528125
+        "Longitude": -87.67700287528125,
+        "Cluster_Count": 32
+    },
+    {
+        "Latitude": 41.89245580878125,
+        "Longitude": -87.62823335465625,
+        "Cluster_Count": 32
+    },
+    {
+        "Latitude": 41.876776895625,
+        "Longitude": -87.636958843375,
+        "Cluster_Count": 32
     },
     {
         "Latitude": 41.889354804374996,
-        "Longitude": -87.62410581909376
-    },
-    {
-        "Latitude": 41.875526394612905,
-        "Longitude": -87.63380227441935
-    },
-    {
-        "Latitude": 41.88052661725806,
-        "Longitude": -87.6242094712258
-    },
-    {
-        "Latitude": 41.87564990454839,
-        "Longitude": -87.62439507425806
-    },
-    {
-        "Latitude": 41.91051239267742,
-        "Longitude": -87.6676601657742
-    },
-    {
-        "Latitude": 41.91287120551613,
-        "Longitude": -87.63327522425806
-    },
-    {
-        "Latitude": 41.86695909587097,
-        "Longitude": -87.66651852490321
-    },
-    {
-        "Latitude": 41.90400704493548,
-        "Longitude": -87.631592045
-    },
-    {
-        "Latitude": 41.86747024045162,
-        "Longitude": -87.61917598048387
-    },
-    {
-        "Latitude": 41.867566541,
-        "Longitude": -87.624094175
-    },
-    {
-        "Latitude": 41.86958325196774,
-        "Longitude": -87.64709905264516
-    },
-    {
-        "Latitude": 41.900670285,
-        "Longitude": -87.630841696
+        "Longitude": -87.62410581909376,
+        "Cluster_Count": 32
     },
     {
         "Latitude": 41.854130720967746,
-        "Longitude": -87.66619626512905
+        "Longitude": -87.66619626512905,
+        "Cluster_Count": 31
     },
     {
         "Latitude": 41.878259678451606,
-        "Longitude": -87.6205247972258
+        "Longitude": -87.6205247972258,
+        "Cluster_Count": 31
+    },
+    {
+        "Latitude": 41.88052661725806,
+        "Longitude": -87.6242094712258,
+        "Cluster_Count": 31
+    },
+    {
+        "Latitude": 41.867566541,
+        "Longitude": -87.624094175,
+        "Cluster_Count": 31
+    },
+    {
+        "Latitude": 41.86695909587097,
+        "Longitude": -87.66651852490321,
+        "Cluster_Count": 31
+    },
+    {
+        "Latitude": 41.86747024045162,
+        "Longitude": -87.61917598048387,
+        "Cluster_Count": 31
+    },
+    {
+        "Latitude": 41.90400704493548,
+        "Longitude": -87.631592045,
+        "Cluster_Count": 31
+    },
+    {
+        "Latitude": 41.900670285,
+        "Longitude": -87.630841696,
+        "Cluster_Count": 31
+    },
+    {
+        "Latitude": 41.86958325196774,
+        "Longitude": -87.64709905264516,
+        "Cluster_Count": 31
+    },
+    {
+        "Latitude": 41.875526394612905,
+        "Longitude": -87.63380227441935,
+        "Cluster_Count": 31
+    },
+    {
+        "Latitude": 41.91287120551613,
+        "Longitude": -87.63327522425806,
+        "Cluster_Count": 31
+    },
+    {
+        "Latitude": 41.87564990454839,
+        "Longitude": -87.62439507425806,
+        "Cluster_Count": 31
     },
     {
         "Latitude": 41.881656360225804,
-        "Longitude": -87.64727283074193
+        "Longitude": -87.64727283074193,
+        "Cluster_Count": 31
     },
     {
-        "Latitude": 41.866930259099995,
-        "Longitude": -87.661707725
-    },
-    {
-        "Latitude": 41.89324859916667,
-        "Longitude": -87.63421431046666
-    },
-    {
-        "Latitude": 41.868082661,
-        "Longitude": -87.639365416
-    },
-    {
-        "Latitude": 41.868788822000006,
-        "Longitude": -87.640916922
-    },
-    {
-        "Latitude": 41.88763419066666,
-        "Longitude": -87.62440869369999
+        "Latitude": 41.91051239267742,
+        "Longitude": -87.6676601657742,
+        "Cluster_Count": 31
     },
     {
         "Latitude": 41.875697508500004,
-        "Longitude": -87.62072466993332
+        "Longitude": -87.62072466993332,
+        "Cluster_Count": 30
     },
     {
-        "Latitude": 41.895819482600004,
-        "Longitude": -87.65487338383333
+        "Latitude": 41.866930259099995,
+        "Longitude": -87.661707725,
+        "Cluster_Count": 30
     },
     {
-        "Latitude": 41.893222357,
-        "Longitude": -87.63571315173334
-    },
-    {
-        "Latitude": 41.8880734917,
-        "Longitude": -87.62471225596667
-    },
-    {
-        "Latitude": 41.838879873399996,
-        "Longitude": -87.64615116219998
-    },
-    {
-        "Latitude": 41.867452731,
-        "Longitude": -87.632334237
-    },
-    {
-        "Latitude": 41.87163905476667,
-        "Longitude": -87.62741022746667
-    },
-    {
-        "Latitude": 41.852967542133335,
-        "Longitude": -87.6299669585
-    },
-    {
-        "Latitude": 41.89175138676667,
-        "Longitude": -87.62528180620001
+        "Latitude": 41.88763419066666,
+        "Longitude": -87.62440869369999,
+        "Cluster_Count": 30
     },
     {
         "Latitude": 41.86553083946667,
-        "Longitude": -87.64081316526668
+        "Longitude": -87.64081316526668,
+        "Cluster_Count": 30
     },
     {
-        "Latitude": 41.8721632732069,
-        "Longitude": -87.63075574731036
+        "Latitude": 41.89175138676667,
+        "Longitude": -87.62528180620001,
+        "Cluster_Count": 30
     },
     {
-        "Latitude": 41.878254718827584,
-        "Longitude": -87.62080780334482
+        "Latitude": 41.8880734917,
+        "Longitude": -87.62471225596667,
+        "Cluster_Count": 30
     },
     {
-        "Latitude": 41.87433591137931,
-        "Longitude": -87.62437466410346
+        "Latitude": 41.852967542133335,
+        "Longitude": -87.6299669585,
+        "Cluster_Count": 30
     },
     {
-        "Latitude": 41.88453968782758,
-        "Longitude": -87.6292369172069
+        "Latitude": 41.838879873399996,
+        "Longitude": -87.64615116219998,
+        "Cluster_Count": 30
+    },
+    {
+        "Latitude": 41.868082661,
+        "Longitude": -87.639365416,
+        "Cluster_Count": 30
+    },
+    {
+        "Latitude": 41.87163905476667,
+        "Longitude": -87.62741022746667,
+        "Cluster_Count": 30
+    },
+    {
+        "Latitude": 41.867452731,
+        "Longitude": -87.632334237,
+        "Cluster_Count": 30
+    },
+    {
+        "Latitude": 41.89324859916667,
+        "Longitude": -87.63421431046666,
+        "Cluster_Count": 30
+    },
+    {
+        "Latitude": 41.895819482600004,
+        "Longitude": -87.65487338383333,
+        "Cluster_Count": 30
+    },
+    {
+        "Latitude": 41.868788822000006,
+        "Longitude": -87.640916922,
+        "Cluster_Count": 30
+    },
+    {
+        "Latitude": 41.893222357,
+        "Longitude": -87.63571315173334,
+        "Cluster_Count": 30
     },
     {
         "Latitude": 41.894942508344826,
-        "Longitude": -87.62438713206896
-    },
-    {
-        "Latitude": 41.903883961,
-        "Longitude": -87.639437202
-    },
-    {
-        "Latitude": 41.85303368848276,
-        "Longitude": -87.62230098462068
-    },
-    {
-        "Latitude": 41.87405806527586,
-        "Longitude": -87.67656346448275
-    },
-    {
-        "Latitude": 41.886847026620686,
-        "Longitude": -87.62467230403448
+        "Longitude": -87.62438713206896,
+        "Cluster_Count": 29
     },
     {
         "Latitude": 41.885727532275865,
-        "Longitude": -87.64868577641379
+        "Longitude": -87.64868577641379,
+        "Cluster_Count": 29
+    },
+    {
+        "Latitude": 41.8721632732069,
+        "Longitude": -87.63075574731036,
+        "Cluster_Count": 29
     },
     {
         "Latitude": 41.867061453,
-        "Longitude": -87.624291557
+        "Longitude": -87.624291557,
+        "Cluster_Count": 29
+    },
+    {
+        "Latitude": 41.886847026620686,
+        "Longitude": -87.62467230403448,
+        "Cluster_Count": 29
     },
     {
         "Latitude": 41.84865161268966,
-        "Longitude": -87.67584432244828
+        "Longitude": -87.67584432244828,
+        "Cluster_Count": 29
     },
     {
-        "Latitude": 41.882164167,
-        "Longitude": -87.624514274
+        "Latitude": 41.85303368848276,
+        "Longitude": -87.62230098462068,
+        "Cluster_Count": 29
     },
     {
-        "Latitude": 41.88939935625,
-        "Longitude": -87.62439936324999
+        "Latitude": 41.878254718827584,
+        "Longitude": -87.62080780334482,
+        "Cluster_Count": 29
     },
     {
-        "Latitude": 41.87569900335715,
-        "Longitude": -87.63255305825
+        "Latitude": 41.87405806527586,
+        "Longitude": -87.67656346448275,
+        "Cluster_Count": 29
     },
     {
-        "Latitude": 41.866800398107145,
-        "Longitude": -87.66653119978571
+        "Latitude": 41.903883961,
+        "Longitude": -87.639437202,
+        "Cluster_Count": 29
     },
     {
-        "Latitude": 41.89168262025,
-        "Longitude": -87.62430100864286
+        "Latitude": 41.87433591137931,
+        "Longitude": -87.62437466410346,
+        "Cluster_Count": 29
+    },
+    {
+        "Latitude": 41.88453968782758,
+        "Longitude": -87.6292369172069,
+        "Cluster_Count": 29
     },
     {
         "Latitude": 41.852469567607145,
-        "Longitude": -87.66130058846429
+        "Longitude": -87.66130058846429,
+        "Cluster_Count": 28
     },
     {
-        "Latitude": 41.87660248574999,
-        "Longitude": -87.65697515146428
+        "Latitude": 41.882164167,
+        "Longitude": -87.624514274,
+        "Cluster_Count": 28
     },
     {
-        "Latitude": 41.837951883035714,
-        "Longitude": -87.64640073632143
-    },
-    {
-        "Latitude": 41.89328615946429,
-        "Longitude": -87.62984744667857
-    },
-    {
-        "Latitude": 41.9035901405,
-        "Longitude": -87.65922217982143
-    },
-    {
-        "Latitude": 41.85274124228572,
-        "Longitude": -87.64652824939286
-    },
-    {
-        "Latitude": 41.846766611,
-        "Longitude": -87.617175778
+        "Latitude": 41.87569900335715,
+        "Longitude": -87.63255305825,
+        "Cluster_Count": 28
     },
     {
         "Latitude": 41.869855597000004,
-        "Longitude": -87.640270308
+        "Longitude": -87.640270308,
+        "Cluster_Count": 28
+    },
+    {
+        "Latitude": 41.89168262025,
+        "Longitude": -87.62430100864286,
+        "Cluster_Count": 28
     },
     {
         "Latitude": 41.911224556,
-        "Longitude": -87.626482572
+        "Longitude": -87.626482572,
+        "Cluster_Count": 28
     },
     {
-        "Latitude": 41.89578523,
-        "Longitude": -87.677930893
+        "Latitude": 41.846766611,
+        "Longitude": -87.617175778,
+        "Cluster_Count": 28
     },
     {
-        "Latitude": 41.89665976648148,
-        "Longitude": -87.62176346477779
+        "Latitude": 41.9035901405,
+        "Longitude": -87.65922217982143,
+        "Cluster_Count": 28
     },
     {
-        "Latitude": 41.90800295496297,
-        "Longitude": -87.64805061703703
+        "Latitude": 41.866800398107145,
+        "Longitude": -87.66653119978571,
+        "Cluster_Count": 28
     },
     {
-        "Latitude": 41.899322279,
-        "Longitude": -87.618738433
+        "Latitude": 41.89328615946429,
+        "Longitude": -87.62984744667857,
+        "Cluster_Count": 28
+    },
+    {
+        "Latitude": 41.87660248574999,
+        "Longitude": -87.65697515146428,
+        "Cluster_Count": 28
+    },
+    {
+        "Latitude": 41.85274124228572,
+        "Longitude": -87.64652824939286,
+        "Cluster_Count": 28
+    },
+    {
+        "Latitude": 41.837951883035714,
+        "Longitude": -87.64640073632143,
+        "Cluster_Count": 28
+    },
+    {
+        "Latitude": 41.88939935625,
+        "Longitude": -87.62439936324999,
+        "Cluster_Count": 28
     },
     {
         "Latitude": 41.852991503000005,
-        "Longitude": -87.635543855
+        "Longitude": -87.635543855,
+        "Cluster_Count": 27
     },
     {
-        "Latitude": 41.87177539566666,
-        "Longitude": -87.62430786566667
+        "Latitude": 41.90800295496297,
+        "Longitude": -87.64805061703703,
+        "Cluster_Count": 27
+    },
+    {
+        "Latitude": 41.89665976648148,
+        "Longitude": -87.62176346477779,
+        "Cluster_Count": 27
     },
     {
         "Latitude": 41.874295533074076,
-        "Longitude": -87.66667938103703
+        "Longitude": -87.66667938103703,
+        "Cluster_Count": 27
+    },
+    {
+        "Latitude": 41.899322279,
+        "Longitude": -87.618738433,
+        "Cluster_Count": 27
+    },
+    {
+        "Latitude": 41.87177539566666,
+        "Longitude": -87.62430786566667,
+        "Cluster_Count": 27
+    },
+    {
+        "Latitude": 41.89578523,
+        "Longitude": -87.677930893,
+        "Cluster_Count": 27
     },
     {
         "Latitude": 41.910706997,
-        "Longitude": -87.66232724500001
-    },
-    {
-        "Latitude": 41.87088347430769,
-        "Longitude": -87.67651246896155
-    },
-    {
-        "Latitude": 41.88439549561539,
-        "Longitude": -87.62457841373076
-    },
-    {
-        "Latitude": 41.903887489153846,
-        "Longitude": -87.62882868742307
+        "Longitude": -87.66232724500001,
+        "Cluster_Count": 27
     },
     {
         "Latitude": 41.89230840276923,
-        "Longitude": -87.62951560003846
+        "Longitude": -87.62951560003846,
+        "Cluster_Count": 26
+    },
+    {
+        "Latitude": 41.872784688230766,
+        "Longitude": -87.63077162734615,
+        "Cluster_Count": 26
+    },
+    {
+        "Latitude": 41.88439549561539,
+        "Longitude": -87.62457841373076,
+        "Cluster_Count": 26
     },
     {
         "Latitude": 41.910943597846156,
-        "Longitude": -87.65317034330769
+        "Longitude": -87.65317034330769,
+        "Cluster_Count": 26
+    },
+    {
+        "Latitude": 41.87088347430769,
+        "Longitude": -87.67651246896155,
+        "Cluster_Count": 26
     },
     {
         "Latitude": 41.883072667269225,
-        "Longitude": -87.63974899261538
+        "Longitude": -87.63974899261538,
+        "Cluster_Count": 26
+    },
+    {
+        "Latitude": 41.875174357999995,
+        "Longitude": -87.67356672,
+        "Cluster_Count": 26
+    },
+    {
+        "Latitude": 41.903887489153846,
+        "Longitude": -87.62882868742307,
+        "Cluster_Count": 26
+    },
+    {
+        "Latitude": 41.91777384532,
+        "Longitude": -87.67776711452,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.89245729272,
+        "Longitude": -87.63571547788,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.8672808516,
+        "Longitude": -87.63054250508002,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.85956240836,
+        "Longitude": -87.66634392052,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.89606707592,
+        "Longitude": -87.66716904556,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.86921187864,
+        "Longitude": -87.66660007472001,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.852075574,
+        "Longitude": -87.61885080400002,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.90940261568,
+        "Longitude": -87.65305383991999,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.91118478456,
+        "Longitude": -87.6386789156,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.881815632,
+        "Longitude": -87.64721471699998,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.89974541604,
+        "Longitude": -87.66105705188,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.892675537840006,
+        "Longitude": -87.620121224,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.867341506479995,
+        "Longitude": -87.64141416344,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.88429862904,
+        "Longitude": -87.64741443184,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.8376291104,
+        "Longitude": -87.66559685604001,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.880762969719996,
+        "Longitude": -87.62448108068,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.83818885712,
+        "Longitude": -87.63181602376,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.89169712528,
+        "Longitude": -87.63269624275999,
+        "Cluster_Count": 25
+    },
+    {
+        "Latitude": 41.88684444283333,
+        "Longitude": -87.64761339166665,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.87929821991667,
+        "Longitude": -87.637120951625,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.85295959041667,
+        "Longitude": -87.63215838791668,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.91346560349999,
+        "Longitude": -87.63182490075,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.88631109358333,
+        "Longitude": -87.62054478979167,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.883099749875,
+        "Longitude": -87.6344499955,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.85668664791667,
+        "Longitude": -87.64675251825001,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.857774765083335,
+        "Longitude": -87.638967461875,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.903560686875004,
+        "Longitude": -87.660738164375,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.867136519,
+        "Longitude": -87.62269374,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.892657116375,
+        "Longitude": -87.61434881550001,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.88141454,
+        "Longitude": -87.67672012862499,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.90323406691667,
+        "Longitude": -87.64335185870834,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.896729506625,
+        "Longitude": -87.63135733520834,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.86984893541666,
+        "Longitude": -87.63065164583332,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.883233518333334,
+        "Longitude": -87.67682293533333,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.88555673241667,
+        "Longitude": -87.65897973691666,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.85274921345833,
+        "Longitude": -87.63156030804167,
+        "Cluster_Count": 24
+    },
+    {
+        "Latitude": 41.852167864,
+        "Longitude": -87.668975041,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.867322637826085,
+        "Longitude": -87.6408477073913,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.85753053543478,
+        "Longitude": -87.64364620995653,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.88891548569565,
+        "Longitude": -87.6444779059565,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.877611658,
+        "Longitude": -87.674227868,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.88579569634782,
+        "Longitude": -87.6453051223913,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.855431999,
+        "Longitude": -87.623728216,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.86754005491304,
+        "Longitude": -87.62561610765218,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.90326118708696,
+        "Longitude": -87.66657680726087,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.88922553634782,
+        "Longitude": -87.63267083273914,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.8856448622174,
+        "Longitude": -87.63669113030436,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.8858139516087,
+        "Longitude": -87.639884956,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.85110748,
+        "Longitude": -87.612866633,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.854211448,
+        "Longitude": -87.623996494,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.88327000169566,
+        "Longitude": -87.63719266765217,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.883274934521744,
+        "Longitude": -87.63545295573913,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.87580222995652,
+        "Longitude": -87.6243922177826,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.85355028930435,
+        "Longitude": -87.63366735913043,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.918042056260866,
+        "Longitude": -87.66798628191304,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.88601364,
+        "Longitude": -87.631130182,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.88923601060869,
+        "Longitude": -87.63118885173914,
+        "Cluster_Count": 23
+    },
+    {
+        "Latitude": 41.86732109754546,
+        "Longitude": -87.6406006865909,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.883293577500005,
+        "Longitude": -87.62454494068183,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.89320680781818,
+        "Longitude": -87.6340059775909,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.89165117227273,
+        "Longitude": -87.62954079195454,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.85495305840909,
+        "Longitude": -87.67606374295454,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.885464738,
+        "Longitude": -87.66280790345455,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.91796090590909,
+        "Longitude": -87.67269558618183,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.854071035,
+        "Longitude": -87.641600343,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.875756255,
+        "Longitude": -87.61751568,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.858069962363636,
+        "Longitude": -87.64679546127273,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.88752162890909,
+        "Longitude": -87.63264670327273,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.88275653972727,
+        "Longitude": -87.62453527631818,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.89187291990908,
+        "Longitude": -87.62026442404546,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.85295165631818,
+        "Longitude": -87.63273003372727,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.86754002586363,
+        "Longitude": -87.62425075681818,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.85773091781818,
+        "Longitude": -87.62729726863637,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.89261854381818,
+        "Longitude": -87.62614056522727,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.903207018818186,
+        "Longitude": -87.67739517195454,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.87528404872727,
+        "Longitude": -87.66676191199998,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.896492173545454,
+        "Longitude": -87.63703635354545,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.889667675909095,
+        "Longitude": -87.67701652163636,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.88703765781818,
+        "Longitude": -87.63411471986363,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.874133273,
+        "Longitude": -87.666744083,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.891606792,
+        "Longitude": -87.62979071068183,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.89295989172727,
+        "Longitude": -87.6575827370909,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.849237582,
+        "Longitude": -87.618534803,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.876291829318184,
+        "Longitude": -87.67643683327273,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.878210724272726,
+        "Longitude": -87.6244474185909,
+        "Cluster_Count": 22
+    },
+    {
+        "Latitude": 41.896114350761906,
+        "Longitude": -87.65458719619048,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.89484959928571,
+        "Longitude": -87.62289787838095,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.91832641133334,
+        "Longitude": -87.64864734438095,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.89978868914285,
+        "Longitude": -87.66742968614285,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.91054249638095,
+        "Longitude": -87.66626914509523,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.89328184742857,
+        "Longitude": -87.63521590857142,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.88055480957143,
+        "Longitude": -87.63713664661906,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.91348980576191,
+        "Longitude": -87.63161466161904,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.86738538261905,
+        "Longitude": -87.62264484361904,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.88807079304762,
+        "Longitude": -87.62405552185714,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.88152436252381,
+        "Longitude": -87.66694066409524,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.88315906533334,
+        "Longitude": -87.62452026414286,
+        "Cluster_Count": 21
+    },
+    {
+        "Latitude": 41.88600727642857,
+        "Longitude": -87.62082898971428,
+        "Cluster_Count": 21
     }
 ]

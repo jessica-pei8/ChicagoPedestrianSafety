@@ -12,6 +12,9 @@ def routequery():
 @app.route('/visualizations')
 def visualizations():
     return render_template('visualizations.html')
+@app.route('/top300')
+def top():  
+    return render_template('topintersections.html')
 
 @app.route('/assets/<path:filename>')
 def serve_assets(filename):
@@ -50,12 +53,17 @@ def get_intersections():
         {
             "Latitude": intersection['Latitude'],
             "Longitude": intersection['Longitude'],
+            'Count': intersection['Cluster_Count'], 
             "Address": coords_to_address(intersection['Latitude'], intersection['Longitude'])
         }
         for intersection in intersections
     ]
 
     return jsonify({"route": route_coords, "intersections": intersection_details})
+
+@app.route('/get_dangerous_intersections', methods=['GET'])
+def get_dangerous_intersections():
+    return jsonify(get_centroids())
 
 if __name__ == '__main__':
     app.run(debug=True)

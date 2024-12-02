@@ -183,7 +183,7 @@
                         .bindPopup(`Dangerous Intersection: ${intersection.Address || "Unknown Address"}`);
                     
                     const listItem = document.createElement("li");
-                    listItem.textContent = `${intersection.Address || "Unknown Address"} (${intersection.Latitude}, ${intersection.Longitude})`;
+                    listItem.textContent = `${intersection.Address || "Unknown Address"} (${intersection.Latitude}, ${intersection.Longitude}) - Cluster Count: ${intersection.Count || "N/A"}`;
                     intersectionList.appendChild(listItem);
                 });
 

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centroids Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+        }
+
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .legend {
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+            font-size: 14px;
+        }
+
+        .legend div {
+            margin-bottom: 8px;
+        }
+
+        .color-box {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            margin-right: 8px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    {% include "base.html" %}
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        async function loadCentroidsData() {
+            const response = await fetch('/get_dangerous_intersections', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            const centroids = await response.json();
+
+            const map = L.map('map').setView([41.8781, -87.6298], 12);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+
+            centroids.forEach(function(centroid) {
+                const lat = centroid.Latitude;
+                const lon = centroid.Longitude;
+                const clusterCount = centroid.Cluster_Count;
+
+                let markerColor;
+                if (clusterCount > 40) {
+                    markerColor = 'red';
+                } else if (clusterCount > 25) {
+                    markerColor = 'orange';
+                } else {
+                    markerColor = 'green';
+                }
+
+                const marker = L.circleMarker([lat, lon], {
+                    color: markerColor,
+                    fillColor: markerColor,
+                    fillOpacity: 0.7,
+                    radius: 8
+                }).addTo(map);
+
+                marker.bindPopup(`<b>Cluster Count:</b> ${clusterCount}`);
+            });
+
+            const legend = L.control({ position: 'topright' });
+
+            legend.onAdd = function() {
+                const div = L.DomUtil.create('div', 'legend');
+                div.innerHTML += '<b>Count Color Key</b><br>';
+                div.innerHTML += '<div><span class="color-box" style="background-color: red;"></span> >40</div>';
+                div.innerHTML += '<div><span class="color-box" style="background-color: orange;"></span> 25 - 40</div>';
+                div.innerHTML += '<div><span class="color-box" style="background-color: green;"></span> ≤ 25</div>';
+                return div;
+            };
+
+            legend.addTo(map);
+        }
+
+        loadCentroidsData();
+    </script>
+</body>
+</html>

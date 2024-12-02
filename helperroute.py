@@ -84,6 +84,8 @@ def check_route_for_intersections(route_coords, threshold=10):
     
     return passed_intersections
 
+def get_centroids():
+    return load_intersections('saved_jsons/centroids.json')
 
 # # Example user inputs (start and end coordinates)
 # start_coords =   address_to_coords('225 S Canal St, Chicago, IL 60606') 
